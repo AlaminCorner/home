@@ -1,24 +1,21 @@
+
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- google font crimson text -->
-	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text"> -->
-
-	<!-- Font Awesome Solid + Brands -->
-  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
-  <link href="fontawesome/css/brands.css" rel="stylesheet">
-  <link href="fontawesome/css/solid.css" rel="stylesheet">
-
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Card Layout</title>
 </head>
+<body>
 
-<body style="background-color:white;" >
 
-	<h1>Alamin Corner (PISPP Canteen)</h1>
-<img src="PISPP_logo.jpg"/img>
+<section class="header">
+	<img src="images/pispp_logo_bg.png"/img height=100px>
+
+	<h1>Alamin Corner</h1>
+	<div style="padding:5px;"><em>(PISPP Canteen)</em></div>
+</section>
 
 <!---
 <h2>Personal Care</h2>
@@ -31,503 +28,524 @@
 <h2>Snacks</h2>
 ---!>
 
+    <section class="card-container">
+        <!-- generated product cards -->
 
-<section class="products">
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161249_851.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.9</h6>
-		</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161249_851.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name"> Methyl Salicylate</h6>
+		<h6 class="card-price">$1.9</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161253_718.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">GreenCross Isopropyl Alcohol</h6>
+		<h6 class="card-price">$4.75</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161256_050.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">GreenCross Isopropyl Alcohol</h6>
+		<h6 class="card-price">$2.5</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161259_917.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name"> Blueberry</h6>
+		<h6 class="card-price">$3.45</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161301_703.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name"> Placenta</h6>
+		<h6 class="card-price">$3.75</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161304_833.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Century Tuna</h6>
+		<h6 class="card-price">$1,55</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161307_991.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">555 Spanish style Sardines</h6>
+		<h6 class="card-price">$1.55</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161310_520.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">555 Tausi Fried Sardines</h6>
+		<h6 class="card-price">$1.55</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161314_488.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">MyKuali Kapitan Curry Chicken</h6>
+		<h6 class="card-price">$2.30</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161315_976.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">MyKuali Thai Curry Chicken</h6>
+		<h6 class="card-price">$2.30</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161319_402.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">MyKuali Rendang</h6>
+		<h6 class="card-price">$2.30</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161321_791.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">MyKuali Sambal Tumis</h6>
+		<h6 class="card-price">$2.30</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161324_371.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$3.75</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161327_053.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">MyKuali Thai Curry Fish</h6>
+		<h6 class="card-price">$2.30</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161329_486.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">MyKuali Fish Broth</h6>
+		<h6 class="card-price">$1.20</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161331_478.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161334_329.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Claypot Kau</h6>
+		<h6 class="card-price">$3.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161336_403.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Claypot Ayama Maharaja</h6>
+		<h6 class="card-price">$2.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161339_679.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161341_623.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161343_621.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$1.20</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161346_611.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$5.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161349_287.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$3.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161350_843.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$1.25</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161354_681.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161357_173.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$1.75</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161359_824.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.80</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161402_536.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161404_761.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161407_219.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$0.60</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161410_101.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161412_097.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$9.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161414_573.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161416_760.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$2.90</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161419_319.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$5.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161422_239.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$4.90</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161425_031.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$3.00</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161427_618.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$5.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161430_150.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$4.60</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161431_986.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$4.60</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161434_549.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$4.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161436_870.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$1.80</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161439_971.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$0.90</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161442_156.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$0.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161443_745.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$0.50</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161447_053.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$0.70</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161448_625.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$1.70</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161451_406.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$0.90</h6>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="images/IMG_20230719_161454_138.png"/img>
+	</div>
+	<div class="card-details">
+		<h6 class="card-name">Brand Product</h6>
+		<h6 class="card-price">$Himalaya Salt</h6>
+	</div>
+</div>
+        <!-- end of generated product cards -->
+    </section>
+
+<section class="footer">
+	<div>
+		<img src="images/pispp_logo_bg.png"/img height=100px>
+	</div> 
+
+	<div>
+	<address>
+		Alamin Corner<br>
+		#58 Street 482<br>
+		Phnom Penh<br>
+		Cambodia<br>
+		12311<br>
+	</address>
+	061791504
+
+	</div>
+	<div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.3122848230554!2d104.9149249!3d11.533977499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109516c9947ce73%3A0x755faa54abff2e50!2sSHAWARMA%20HUT!5e0!3m2!1skm!2skh!4v1708359034018!5m2!1skm!2skh" width="600" height="300" frameborder=0 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 	</div>
 
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161253_718.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>4.75</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161256_050.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.5</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161259_917.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>3.45</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161301_703.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>3.75</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161304_833.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1,55</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161307_991.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.55</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161310_520.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.55</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161314_488.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.30</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161315_976.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.30</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161319_402.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.30</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161321_791.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.30</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161324_371.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>3.75</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161327_053.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.30</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161329_486.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.20</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161331_478.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161334_329.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>3.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161336_403.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161339_679.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161341_623.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161343_621.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.20</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161346_611.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>5.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161349_287.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>3.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161350_843.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.25</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161354_681.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161357_173.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.75</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161359_824.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.80</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161402_536.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161404_761.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161407_219.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>0.60</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161410_101.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161412_097.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>9.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161414_573.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161416_760.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>2.90</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161419_319.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>5.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161422_239.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>4.90</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161425_031.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>3.00</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161427_618.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>5.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161430_150.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>4.60</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161431_986.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>4.60</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161434_549.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>4.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161436_870.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.80</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161439_971.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>0.90</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161442_156.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>0.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161443_745.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>0.50</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161447_053.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>0.70</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161448_625.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>1.70</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161451_406.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>0.90</h6>
-		</div>
-	</div>
-
-	<div class="product-card">
-		<div class="product-image">
-			<img src="images/IMG_20230719_161454_138.png"/img>
-		</div>
-		<div class="product-info">
-			<h5>Winter Jacket</h5>
-			<h6>Himalaya Salt</h6>
-		</div>
-	</div>
 </section>
 
-		<!--
-		for a in I*; do
-		echo "<img src=\"$a\" width=\"600\"/img>"
-		done >> tt
-		-->
-	</body>
+</body>
 </html>
