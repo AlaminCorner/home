@@ -134,15 +134,18 @@ ul.contact li.tel:before{ content:'\f095'; }
 
 /* Mobile map */
 @media screen and (max-width:600px) {
-.google-maps {
-    width: 100% !important;
+	.google-maps {
+			width: 100% !important;
+	}
+	.google-maps iframe {
+			width: 100% !important;
+	}
 }
-.google-maps iframe {
-    width: 100% !important;
-}
-}
-.google-maps {
-		margin-left: auto;
+
+@media screen and (min-width:980px) {
+	.google-maps {
+			margin-left: auto;
+	}
 }
 
 /*
