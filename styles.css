@@ -12,14 +12,44 @@ body {
 	background-color: #f0f0f0;
 }
 
+
+
 .header {
 	display: flex;
 	align-items: center;
+	//flex: 1 100%;
+  flex-wrap: wrap;
+	//flex-direction:row;
+
 	background-color: rgb(251,238,159);
 }
-.header h1 {
+
+.header h2 {
 	font-family: "luminari";
 }
+
+.title {
+	//display: flex;
+	//align-items: center;
+  //flex-wrap: wrap;
+	//width: 100%;
+	//max-width: 1000px;
+	//min-height: 100px;
+	//margin: 0px;
+	//margin-left: 0.5em;
+	//padding: 0px;
+	background-color: rgb(251,238,159);
+	padding: 12px;
+}
+.motto {
+	padding: 12px;
+}
+@media screen and (min-width:1000px) {
+.motto {
+	margin-left: auto;
+}
+}
+
 
 .card-container {
   padding: 12px;
@@ -46,18 +76,6 @@ body {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
 }
-/*
-.card:after {
-  opacity: 0;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.card:hover:after {
-  opacity: 1;
-}
-*/
-
-
 .card-image img {
 	//padding: 20px;
 	max-width: 90%;
@@ -92,9 +110,26 @@ body {
 }
 
 
-address {
+
+ul.contact address {
   display: block;
+	margin: 20px;
 }
+
+ul.contact {
+	list-style-type: none;
+}
+ul.contact li:before
+{
+	font-family: 'Font Awesome 6 Free';
+	/* font-size: 12;*/
+	content: "\e800";
+	float: left;
+	width: 1.3em;
+}
+ul.contact li.tel:before{ content:'\f095'; }
+
+
 
 
 /* Mobile map */
@@ -105,6 +140,9 @@ address {
 .google-maps iframe {
     width: 100% !important;
 }
+}
+.google-maps {
+		margin-left: auto;
 }
 
 /*
