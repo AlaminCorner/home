@@ -25,7 +25,7 @@ body {
 }
 
 .header h2 {
-	font-family: "luminari";
+	font-family: "Luminari";
 }
 
 .title {
@@ -133,7 +133,7 @@ ul.contact li.tel:before{ content:'\f095'; }
 
 
 /* Mobile map */
-@media screen and (max-width:600px) {
+@media screen and (max-width:980px) {
 	.google-maps {
 			width: 100% !important;
 	}
