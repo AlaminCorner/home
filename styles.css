@@ -142,7 +142,7 @@ ul.contact li.tel:before{ content:'\f095'; }
 	}
 	.card-container {
 		padding: 4px;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 		gap: 6px;
 	}
 }
